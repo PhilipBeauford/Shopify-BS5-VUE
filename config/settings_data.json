@@ -1,6 +1,34 @@
 {
-  "current": "Default",
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {}
+      },
+      "16523854501e8e97d1": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/convertify-hero.jpg",
+          "title": "Example Heading",
+          "description": "<p>Example paragraph<\/p>",
+          "button_label": "Browse Collection",
+          "button_link": ""
+        }
+      },
+      "1652412426fab32649": {
+        "type": "featured-collection",
+        "settings": {
+          "featured_collection": "frontpage",
+          "title": "Featured Collection"
+        }
+      }
+    },
+    "content_for_index": [
+      "16523854501e8e97d1",
+      "1652412426fab32649"
+    ]
+  },
   "presets": {
-    "Default": { }
+    "Default": {}
   }
 }
